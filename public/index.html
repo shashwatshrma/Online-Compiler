@@ -5,7 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Online C Compiler</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"> 
+        <script src="../dist/main.js"></script>
     </head>
 
     <body>
@@ -41,8 +42,10 @@
                     <button class="run" onclick="run_code()">
                         Run
                     </button>
+                    <script src="../dist/main.js">
+                    </script>
                 </div>
-                <div><textarea id="input-code" autocomplete="on" autofocus="on">
+                <div><textarea id="input-code" autocomplete="on" autofocus="on" spellcheck="false">
 #include <stdio.h>
 
 int main() {
@@ -53,8 +56,8 @@ int main() {
                 </div>
         </div>
 
-        <footer>
-            <script src="index.js"></script>
-        </footer>
+        <!--<footer>
+            <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        </footer>-->
     </body>
 </html>

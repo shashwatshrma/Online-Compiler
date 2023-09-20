@@ -38,9 +38,11 @@ textarea {
     padding: 1vh;
     margin: 1vh;
     box-shadow: 2px 2px #4c4b58;
+    resize: none;
 }
 
 .result {
+    font-family: 'Courier New';
     height: 5vh;
     background-color: #282b30;
     width: 95%;
